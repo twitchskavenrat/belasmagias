@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belas Magias - Confeitaria Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+           <div class="logo">
+                <img src="imagens/logoimg.jpg" alt="Belas Magias Logo" class="logo-img">
+                <h2>Belas Magias</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Belas Magias</h1>
+            <p class="hero-subtitle">Transformando seus sonhos em deliciosas realidades</p>
+            <div class="hero-buttons">
+                <a href="#gallery" class="btn btn-primary">Ver Galeria</a>
+                <a href="https://wa.me/5591999120969?text=Olá! Gostaria de fazer um pedido de bolo personalizado." class="btn btn-secondary" target="_blank">Fazer Pedido</a>
+            </div>
+        </div>
+        <div class="hero-images">
+            <div class="floating-cake cake-1">🎂</div>
+            <div class="floating-cake cake-2">🧁</div>
+            <div class="floating-cake cake-3">🍰</div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Nossos Destaques</h2>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="card-image">
+                        <div class="placeholder-img gradient-2">
+                            <img src="imagens/img3.jpeg" alt="Bolo Niver Destaque">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Bolos Personalizados!</h3>
+                        <p>Bolos para qualquer temporada!</p>
+                    </div>
+                </div>
+                <div class="featured-card">
+                    <div class="card-image">
+                        <div class="placeholder-img gradient-2">
+                            <img src="imagens/boloelegante.jpeg" alt="Bolo Niver Destaque">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Bolos Elegantes</h3>
+                        <p>Designs sofisticados com flores artesanais para ocasiões especiais</p>
+                    </div>
+                </div>
+                <div class="featured-card">
+                    <div class="card-image">
+                        <div class="placeholder-img gradient-3">
+                            <img src="imagens/manuelaaniversario.png" alt="Bolo Niver Destaque">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Bolos De Aniversário</h3>
+                        <p>Bolos para qualquer idade, para aquele momento único!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Galeria de Produtos</h2>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="personalizado">Personalizado</button>
+                <button class="filter-btn" data-filter="aniversario">Aniversário</button>
+                <button class="filter-btn" data-filter="elegante">Elegante</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="elegante">
+                    <div class="gallery-img gradient-2">
+                     <img src="imagens/img4.jpeg" alt="Bolo Unicórnio" class="gallery-img">
+                     <style>.container img {
+                    width: 80%; height: 100%; }
+                    </style>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Pra dar aquele destaque na festa!</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="elegante">
+                    <div class="gallery-img gradient-2">
+                        <img src="imagens/img2.jpeg" alt="Bolo Rosas" class="gallery-img">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Elegância em Rosas</h4>
+                        <p>Decoração artesanal com flores!</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="elegante">
+                    <div class="gallery-img gradient-2">
+                        <img src="imagens/juliaelegante.png" alt="Bolo Rosas" class="gallery-img">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Bolos para todas as idades!</h4>
+                        <p>Cuidado com cada detalhe!</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="aniversario">
+                    <div class="gallery-img gradient-6">
+                        <img src="imagens/img5.jpeg" alt="Bolo de " class="gallery-img">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Aventura em cada fatia!</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="aniversario">
+                    <div class="gallery-img gradient-7">
+                        <img src="imagens/mariaterezaaniversario.png" alt="Bolo de " class="gallery-img">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Celebração Especial</h4>
+                        <p>Cores vibrantes para sua festa</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="aniversario">
+                    <div class="gallery-img gradient-8">
+                        <img src="imagens/monicaaniversario.png" alt="Bolo Super Herói" class="gallery-img">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Também fazemos os doces na foto!</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="personalizado">
+                    <div class="gallery-img gradient-8">
+                        <img src="imagens/viagempersonalizado.jpeg" alt="Bolo Super Herói" class="gallery-img">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Personalizados!</h4>
+                        <p>Aquele bolo pra comemorar aquela viagem dos sonhos!</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="personalizado">
+                    <div class="gallery-img gradient-8">
+                        <img src="imagens/arraiapersonalizado.jpeg" alt="Bolo Super Herói" class="gallery-img">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Festa Junina!</h4>
+                        <p>Bolos para qualquer época do ano</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="personalizado">
+                    <div class="gallery-img gradient-9">
+                       <img src="imagens/nossapersonalizado.jpeg" alt="Bolo Majestade" class="gallery-img">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Eventos e mais!</h4>
+                        <p>Pra aquela ocasião que merece ser marcada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre a Belas Magias</h2>
+                    <p>Há mais de 5 anos, a <strong>Belas Magias</strong> transforma momentos especiais em memórias doces e inesquecíveis. Nossa paixão pela confeitaria artesanal nos move a criar bolos únicos, personalizados e deliciosos.</p>
+                    
+                    <p>Cada bolo é uma obra de arte comestível, cuidadosamente elaborada com ingredientes selecionados e muito amor. Desde bolos temáticos infantis até bolos personalizados para qualquer evento, nossa especialidade está em materializar seus doces sonhos em formato de bolo.</p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Bolos Criados</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Satisfação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-placeholder">
+                        <img src="imagens/confeiteira.jpeg" alt="confeiteira" class="gallery-img">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎂</div>
+                    <h3>Bolos Personalizados</h3>
+                    <p>Criamos bolos únicos baseados em suas ideias e preferências</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Design Exclusivo</h3>
+                    <p>Cada bolo é uma peça artística pensada especialmente para você</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚚</div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Entregamos seu bolo fresquinho na data e hora combinadas</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💝</div>
+                    <h3>Ocasiões Especiais</h3>
+                    <p>Aniversários, Chá de bebê, Eventos e muito mais!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Fale Conosco</h3>
+                    <p>Estamos prontos para criar o bolo dos seus sonhos! Entre em contato conosco pelo WhatsApp e vamos conversar sobre sua encomenda especial.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <p>(91) 99912-0969</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Localização</h4>
+                            <p>Belém - Pará / Marambaia, Av. Tavares Bastos, 836, Ed. Arte Cristal, Bloco A, apt 601</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-details">
+                            <h4>Atendimento</h4>
+                            <p>Segunda à Sábado: 8h às 18h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/5591999120969?text=Olá! Gostaria de fazer um pedido de bolo personalizado." class="whatsapp-btn" target="_blank">
+                    <span>💬</span>
+                             Conversar no WhatsApp
+                        </a>
+                        <a href="https://www.instagram.com/belasmagias/" class="instagram-btn" target="_blank">
+                    <span>📷</span>
+                            Seguir no Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Seu WhatsApp" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Tipo de evento (ex: Aniversário, etc)" id="event-type" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Informe a data de entrega" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Informe o seu orçamento" id="budget">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Descreva seu pedido..." rows="4" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem(Whatsapp)</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Belas Magias</h3>
+                    <p>Transformando sonhos em realidade doce</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p>📱 (91) 99912-0969</p>
+                    <p>📍 Belém - PA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Belas Magias. Todos os direitos reservados. ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
