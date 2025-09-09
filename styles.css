@@ -1070,7 +1070,7 @@ html {
 .card-image img,
 .gallery-item img,
 .about-image img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
@@ -1086,3 +1086,4 @@ html {
     border-radius: 20px;
     box-shadow: var(--shadow);
 }
+
