@@ -1,3 +1,19 @@
+/* FIX DE EMERGÊNCIA - Adicione isso no INÍCIO do arquivo styles.css */
+* {
+    background-image: none !important;
+}
+
+.hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #8B5A96 100%) !important;
+    background-image: none !important;
+}
+
+img {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
 /* Reset e Base */
 * {
     margin: 0;
@@ -1130,4 +1146,5 @@ body img:not(.logo-img):not(.gallery-img img):not(.about-img-placeholder img):no
 .gallery-item:hover img {
     transform: scale(1.1);
 }
+
 
